@@ -31,9 +31,7 @@ ON employees.department_id = departments.department_id
 WHERE departments.department_name = 'IT';
 
 
--- =========================================
 -- LeetCode SQL 50
--- =========================================
 
 -- Q1: Replace Employee ID With The Unique Identifier
 SELECT EmployeeUNI.unique_id, Employees.name
